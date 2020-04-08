@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460A18AB4E05F9E729DDB3BE /* libPods-com.fuhope.exp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740E559A2E744AEB10086E5 /* libPods-com.fuhope.exp.a */; };
+		71F83CBD243E14C10024B1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F83CBB243E14C10024B1DA /* Main.storyboard */; };
+		71F83CBF243E14C80024B1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F83CBE243E14C80024B1DA /* Assets.xcassets */; };
+		71F83CC2243E14C80024B1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F83CC0243E14C80024B1DA /* LaunchScreen.storyboard */; };
+		71F83CC5243E14C80024B1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F83CC4243E14C80024B1DA /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71F83CAF243E14C10024B1DA /* com.fuhope.exp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.fuhope.exp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F83CBC243E14C10024B1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71F83CBE243E14C80024B1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F83CC1243E14C80024B1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71F83CC3243E14C80024B1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F83CC4243E14C80024B1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8740E559A2E744AEB10086E5 /* libPods-com.fuhope.exp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-com.fuhope.exp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF98B08AAC3BFCE0F97C3234 /* Pods-com.fuhope.exp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.fuhope.exp.release.xcconfig"; path = "Target Support Files/Pods-com.fuhope.exp/Pods-com.fuhope.exp.release.xcconfig"; sourceTree = "<group>"; };
+		F5C199B67775C9E960B01053 /* Pods-com.fuhope.exp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.fuhope.exp.debug.xcconfig"; path = "Target Support Files/Pods-com.fuhope.exp/Pods-com.fuhope.exp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F83CAC243E14C10024B1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460A18AB4E05F9E729DDB3BE /* libPods-com.fuhope.exp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F3471BD02FBCB9A05E08695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5C199B67775C9E960B01053 /* Pods-com.fuhope.exp.debug.xcconfig */,
+				CF98B08AAC3BFCE0F97C3234 /* Pods-com.fuhope.exp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71F83CA6243E14C10024B1DA = {
+			isa = PBXGroup;
+			children = (
+				71F83CB1243E14C10024B1DA /* com.fuhope.exp */,
+				71F83CB0243E14C10024B1DA /* Products */,
+				6F3471BD02FBCB9A05E08695 /* Pods */,
+				AF47815FF9559B6065DEEF93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71F83CB0243E14C10024B1DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F83CAF243E14C10024B1DA /* com.fuhope.exp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F83CB1243E14C10024B1DA /* com.fuhope.exp */ = {
+			isa = PBXGroup;
+			children = (
+				71F83CBB243E14C10024B1DA /* Main.storyboard */,
+				71F83CBE243E14C80024B1DA /* Assets.xcassets */,
+				71F83CC0243E14C80024B1DA /* LaunchScreen.storyboard */,
+				71F83CC3243E14C80024B1DA /* Info.plist */,
+				71F83CC4243E14C80024B1DA /* main.m */,
+			);
+			path = com.fuhope.exp;
+			sourceTree = "<group>";
+		};
+		AF47815FF9559B6065DEEF93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8740E559A2E744AEB10086E5 /* libPods-com.fuhope.exp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F83CAE243E14C10024B1DA /* com.fuhope.exp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F83CC8243E14C80024B1DA /* Build configuration list for PBXNativeTarget "com.fuhope.exp" */;
+			buildPhases = (
+				F9C6BCD14CC7EAACF4352A42 /* [CP] Check Pods Manifest.lock */,
+				71F83CAB243E14C10024B1DA /* Sources */,
+				71F83CAC243E14C10024B1DA /* Frameworks */,
+				71F83CAD243E14C10024B1DA /* Resources */,
+				C0E6C3F55855AF6748DDE548 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.fuhope.exp;
+			productName = com.fuhope.exp;
+			productReference = 71F83CAF243E14C10024B1DA /* com.fuhope.exp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F83CA7243E14C10024B1DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = FudonFuchina;
+				TargetAttributes = {
+					71F83CAE243E14C10024B1DA = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 71F83CAA243E14C10024B1DA /* Build configuration list for PBXProject "com.fuhope.exp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71F83CA6243E14C10024B1DA;
+			productRefGroup = 71F83CB0243E14C10024B1DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F83CAE243E14C10024B1DA /* com.fuhope.exp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F83CAD243E14C10024B1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F83CC2243E14C80024B1DA /* LaunchScreen.storyboard in Resources */,
+				71F83CBF243E14C80024B1DA /* Assets.xcassets in Resources */,
+				71F83CBD243E14C10024B1DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0E6C3F55855AF6748DDE548 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-com.fuhope.exp/Pods-com.fuhope.exp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-com.fuhope.exp/Pods-com.fuhope.exp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-com.fuhope.exp/Pods-com.fuhope.exp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C6BCD14CC7EAACF4352A42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-com.fuhope.exp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F83CAB243E14C10024B1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F83CC5243E14C80024B1DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71F83CBB243E14C10024B1DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F83CBC243E14C10024B1DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71F83CC0243E14C80024B1DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F83CC1243E14C80024B1DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71F83CC6243E14C80024B1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71F83CC7243E14C80024B1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71F83CC9243E14C80024B1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C199B67775C9E960B01053 /* Pods-com.fuhope.exp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = com.fuhope.exp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuhope.com-fuhope-exp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71F83CCA243E14C80024B1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF98B08AAC3BFCE0F97C3234 /* Pods-com.fuhope.exp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = com.fuhope.exp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuhope.com-fuhope-exp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F83CAA243E14C10024B1DA /* Build configuration list for PBXProject "com.fuhope.exp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F83CC6243E14C80024B1DA /* Debug */,
+				71F83CC7243E14C80024B1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F83CC8243E14C80024B1DA /* Build configuration list for PBXNativeTarget "com.fuhope.exp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F83CC9243E14C80024B1DA /* Debug */,
+				71F83CCA243E14C80024B1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F83CA7243E14C10024B1DA /* Project object */;
+}

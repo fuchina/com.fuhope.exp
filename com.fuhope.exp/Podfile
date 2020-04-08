@@ -1,0 +1,64 @@
+platform:ios,'9.0'
+
+target 'com.fuhope.exp' do
+
+# 三方组件
+   pod 'SDWebImage', '5.2.3'
+   pod 'FSToast'
+#   pod 'AMapLocation','2.6.3'
+   pod 'MLeaksFinder'
+
+  pod 'FSExpressHome', :path => '../../Components/com.fuhope.exp.home/'
+  pod 'FSBaseController',:path => '../../../FSBaseController/'
+  pod 'FSApp', :path => '../../Components/FSApp/'
+  pod 'FSImagePicker', :path => '../../Components/FSImagePicker/'
+  pod 'FSUIKit', :path => '../../../FSUIKit/'
+#  pod 'FSColor', :path => '../../Components/FSColor/'
+#  pod 'FSChina', :path => '../../Components/FSChina/'
+#  pod 'FSABCommon', :path => '../../Components/FSABCommon/'
+#  pod 'FSDBMaster',:path => '../../../FSDBMaster/'
+#  pod 'FSSaleLoginController', :path => '../../Components/FSSaleLoginController/'
+#  pod 'FSSaleService', :path => '../../Components/FSSaleService/'
+#  pod 'FSSaleService', :path => '../../Components/com.fuhope.sale.simulateService/'
+#  pod 'FSSaleHomeCell', :path => '../../Components/FSSaleHomeCell/'
+#  pod 'FSSaleImageViews', :path => '../../Components/FSSaleImageViews/'
+#  pod 'FSMap', :path => '../../Components/FSMap/'
+#  pod 'FSMapApple', :path => '../../Components/FSMapApple/'
+#  pod 'FSImageView', :path => '../../Components/FSImageView/'
+#  pod 'FSTextView', :path => '../../Components/FSTextView/'
+#  pod 'FSLocation', :path => '../../../FSLocation/'
+#  pod 'FSSaleShopModel', :path => '../../Components/FSSaleShopModel/'
+#  pod 'FSPlainTableView', :path => '../../Components/FSPlainTableView/'
+#  pod 'FSGoodsSystem', :path => '../../Components/FSGoodsSystem/'
+#  pod 'FSGoodsDetail', :path => '../../Components/FSGoodsDetail/'
+#  pod 'FSShopView', :path => '../../Components/FSShopView/'
+#  pod 'FSUpBottomLabelView', :path => '../../Components/FSUpBottomLabelView/'
+#  pod 'FSPubuView', :path => '../../Components/FSPubuView/'
+#  pod 'FSTabBarView', :path => '../../Components/FSTabBarView/'
+#  pod 'FSViews', :path => '../../Components/FSViews/'
+
+#业务组件
+  
+#  pod 'FSTrack',:path => '../../../FSTrack/'
+#  pod 'FSTimer', :path => '../../Components/FSTimer/'
+#  pod 'FSImagePicker', :path => '../../Components/FSImagePicker/'
+#  pod 'FSPageScrollView', :path => '../../Components/FSPageScrollView/'
+#  pod 'FSTabBarView', :path => '../../Components/FSTabBarView/'
+
+# 地图组件
+
+#  pod 'FSMapAmap', :path => '../../Components/FSMapAmap/'
+#  pod 'FSMapTencent', :path => '../../Components/FSMapTencent/'
+
+#通用业务相关组件
+#  pod 'FSAppPublic', :path => '../../Components/FSAppPublic/'
+#  pod 'FSMobileView', :path => '../../Components/FSMobileView/'
+
+#业务相关组件
+#  pod 'FSPointOfInterests', :path => '../../Components/FSPointOfInterests/'
+#  pod 'FSExpress', :path => '../../Components/FSExpress/'
+#  pod 'FSSaleHome', :path => '../../Components/com.fuhope.sale.home/'
+#  pod 'FSPageController', :path => '../../Components/FSPageController/'
+    
+end
+
